@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Factory</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+
+    <h1 class="start mb-3">Movie Factory</h1>
+
+
+    <!-- end navbar -->
+
+    <div id="carouselExampleCaptions" class="carousel slide mt-2 mb-5">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/super2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block fs-4" style="color: rgb(255, 0, 0)">
+                    <!-- <h5 class="fs-2">The Cast of Loki Season 2</h5>
+                    <p>Marvel Studios' D23 footage confirmed 8 MCU characters returning for Loki season 2. When audiences last left Loki, Sylvie had just killed He Who Remains, freeing the sacred timeline and paving the way for Kang the Conquerer. Despite
+                        being in the midst of filming, Marvel Studios released an actual trailer for Season 2 exclusively for D23 Expo attendees, confirming just who will be joining Loki for his second time-traveling tale..</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Avatar.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block fs-4" style="color: white;">
+                    <h5 class="fs-2">Avatar: The Way of Water</h5>
+                    <p>After 13 years the time has finally come: With "Avatar: The Way of Water" James Cameron and Jon Landau invite you back to the impressive planet Pandora!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/tom.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block fs-4" style="color: rgb(255, 10, 10);">
+                    <!-- <h5 class="fs-2">Top Gun Maverick</h5>
+                    <p>After thirty years of service as one of the Navy's finest aviators, Pete Mitchell pushes his limits as a brave test pilot and evades promotions that would make him unable to fly.</p> -->
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+    </div>
+
+    <!-- end Hero -->
+    <div class="container hid">
+
+        <button class="btn btn-secondary mx-5" id="sort">sort</button>
+        <input type="text" class="form-control" placeholder="Search">
+        <input type="button" class="btn btn-secondary" value="Search" style="background-color: black; color: white;">
+
+    </div>
+    <hr class="text-light mx-5 mb-5">
+
+    <!-- end Sort -->
+
+    <div class="container">
+        <div class="row row-cols-xl-3 row-cols-lg-2 row-cols-sm-1" id="movie">
+            <!-- movie's base -->
+        </div>
+    </div>
+
+    <!-- end Movies -->
+
+    <h1 class="start">Movie Factory</h1>
+
+
+
+    <script src="data.json"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

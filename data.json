@@ -1,0 +1,51 @@
+let movies = `[
+    { 
+    "title": "The Cast of Loki Season 2",
+    "name": "Unknown",
+    "img": "img/super3.jpg",
+    "discription": "By breaking the fabric of time and space, Loki and Sylvie are able to defeat He Who Remains. However, the multiverse is fully ripped open.",
+    "like": 0
+},
+
+{ 
+    "title": "Avatar: The Way of Water",
+    "name": "Unknown",
+    "img": "img/avatar2.jpg",
+    "discription": "After 13 years the time has finally com: With Avata: The Way of Water James Cameron and Jon Landau invite you back to the impressive planet Pandora!",
+    "like": 0
+},
+
+{ 
+    "title": "Top Gun Maverick",
+    "name": "Tom Cruise",
+    "img": "img/tom2.jpg",
+    "discription": "After thirty years of service as one of the Navy's finest aviators, Pete Mitchell pushes his limits as a brave test pilot and evades promotions that would make him unable to fly.",
+    "like": 0
+},
+
+{ 
+    "title": "Top Gun Maverick",
+    "name": "Tom Cruise",
+    "img": "img/tom2.jpg",
+    "discription": "After thirty years of service as one of the Navy's finest aviators, Pete Mitchell pushes his limits as a brave test pilot and evades promotions that would make him unable to fly.",
+    "discription": "After thirty years of service as one of the Navy's finest aviators, Pete Mitchell pushes his limits as a brave test pilot and evades promotions that would make him unable to fly.",
+    "like": 0
+},
+
+{ 
+    "title": "Top Gun Maverick",
+    "name": "Tom Cruise",
+    "img": "img/tom2.jpg",
+    "discription": "After thirty years of service as one of the Navy's finest aviators, Pete Mitchell pushes his limits as a brave test pilot and evades promotions that would make him unable to fly.",
+    "like": 0
+},
+
+{ 
+    "title": "Top Gun Maverick",
+    "name": "Tom Cruise",
+    "img": "img/tom2.jpg",
+    "discription": "After thirty years of service as one of the Navy's finest aviators, Pete Mitchell pushes his limits as a brave test pilot and evades promotions that would make him unable to fly.",
+    "like": 0
+}
+
+]`;

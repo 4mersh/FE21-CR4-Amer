@@ -1,0 +1,26 @@
+.start {
+    text-align: center;
+    font-size: xxx-large;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: -5px;
+}
+
+.hid {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.img-thumbnail {
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 100px rgb(255, 251, 251);
+    background-color: #fff;
+    transition: 0.7s ease;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.1);
+}
